@@ -14,11 +14,11 @@ presto:
 image:
   # Docker Repository of the docker image that will be used in the Presto
   # coordinator and worker deployments.
-  repository: "wiwdata/presto"
+  repository: "rluiarch/presto"
 
   # Tag of the docker image that will be used by the coordinator and worker
   # deployments.
-  tag: "0.217"
+  tag: "0.218-1"
 
   # The image pull policy for the worker and coordinator deployments.
   pullPolicy: "Always"
